@@ -1,0 +1,56 @@
+body
+{
+    width: 100%;
+    font-family: sans-serif;
+    color: white;
+}
+
+img
+{
+    width: 50%;
+}
+
+img.logo
+{
+    width: 64px;
+}
+
+.body
+{
+    background-color: white;
+    margin: 5%;
+}
+
+.cell
+{
+    width: 50%;
+}
+
+.left
+{
+    float: left;
+}
+
+.right
+{
+    float: right;
+}
+
+.colored_lighter
+{
+    width: auto;
+    text-align: center;
+    background-color: #ffae03;
+}
+
+.colored_darker
+{
+    width: auto;
+    text-align: center;
+    background-color: #fa8500;
+}
+
+p.description
+{
+    color: black;
+}
