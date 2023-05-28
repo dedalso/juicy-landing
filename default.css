@@ -7,11 +7,11 @@
 
 body
 {
-    width: 100%;
+    width: 1440px;
     font-family: Raleway;
     letter-spacing: 0.05rem;
     color: white;
-    margin: 0;
+    margin: 0 auto;
 }
 
 header
