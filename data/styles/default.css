@@ -1,0 +1,179 @@
+@font-face
+{
+    font-family: Raleway;
+    font-weight: 350;
+    src: url(../fonts/raleway.ttf);
+}
+
+body
+{
+    width: 100%;
+    font-family: Raleway;
+    letter-spacing: 0.05rem;
+    color: white;
+    margin: 0;
+}
+
+header
+{
+    padding: 16px 128px 48px 128px;
+}
+
+.colored_lighter
+{
+    width: auto;
+    text-align: center;
+    background-color: #ffae03;
+}
+
+.colored_darker
+{
+    width: auto;
+    text-align: center;
+    background-color: #fa8500;
+}
+
+img
+{
+    display: inline-block;
+}
+
+div.landing
+{
+    display: flex;
+    margin-top: 96px;
+}
+
+div.links
+{
+    display: flex;
+    margin-bottom: 32px;
+}
+
+img.logo
+{
+    width: 64px;
+}
+
+div.header_buttons
+{
+    display: flex;
+    justify-content: center;
+    margin-left: auto; 
+    margin-right: 0;
+}
+
+button
+{
+    font-family: Raleway;
+    letter-spacing: 0.05rem;
+}
+
+button.link
+{
+    border: none;
+    font-size: 11pt;
+    font-weight: bold;
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+div.slogan-buy
+{
+    display: inline-block;
+    margin-right: 64px;
+}
+
+div.slogan
+{
+    width: 320px;
+    font-size: 24pt;
+    padding: 32px 48px 32px 96px;
+    margin-bottom: 32px;
+}
+
+button.buy
+{
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 19pt;
+    color: white;
+    background-color: #fa8500;
+    padding: 14px 38px;
+}
+
+p.slogan_first
+{
+    text-align: left; 
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+p.slogan_second
+{
+    text-align: left; 
+    margin: 0;
+    margin-left: 64px;
+}
+
+img.landing_orange
+{
+    height: 318px;
+    display: flex;
+    justify-content: center;
+    margin: -32px auto 0 auto;
+}
+
+div.body
+{
+    display: grid;
+    justify-content: center;
+    background-color: white;
+    margin: 80px 0;
+}
+
+div.juice
+{
+    width: 960px;
+    display: flex;
+}
+
+div.juice_description
+{
+    width: 100%;
+    padding: 64px;
+}
+
+p.juice_description_first
+{
+    font-size: 26pt;
+    margin: -24px 0 64px 0;
+}
+
+p.juice_description_second
+{
+    font-size: 16pt;
+}
+
+div.cell
+{
+    width: auto;
+}
+
+.left
+{
+    float: left;
+}
+
+.right
+{
+    float: right;
+}
+
+p.description
+{
+    font-size: 16pt;
+    color: black;
+}
