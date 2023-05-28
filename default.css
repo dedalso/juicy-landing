@@ -2,7 +2,7 @@
 {
     font-family: Raleway;
     font-weight: 350;
-    src: url(../fonts/raleway.ttf);
+    src: url(data/fonts/raleway.ttf);
 }
 
 body
@@ -19,18 +19,25 @@ header
     padding: 16px 128px 48px 128px;
 }
 
+.colored_more_lighter
+{
+    background-color: #ffae03;
+}
+
 .colored_lighter
 {
-    width: auto;
-    text-align: center;
-    background-color: #ffae03;
+    background-color: #f8a126;
 }
 
 .colored_darker
 {
+    background-color: #fa8500;
+}
+
+.colored_more_lighter, .colored_lighter, .colored_darker
+{
     width: auto;
     text-align: center;
-    background-color: #fa8500;
 }
 
 img
@@ -131,35 +138,37 @@ div.body
     display: grid;
     justify-content: center;
     background-color: white;
-    margin: 80px 0;
+    margin: 80px 0 64px 0;
 }
 
 div.juice
 {
-    width: 960px;
+    width: 940px;
     display: flex;
+    margin-bottom: 64px;
 }
 
 div.juice_description
 {
     width: 100%;
-    padding: 64px;
+    padding: 64px 0 0 0;
 }
 
 p.juice_description_first
 {
-    font-size: 26pt;
-    margin: -24px 0 64px 0;
+    font-size: 25pt;
+    margin-bottom: 64px;
 }
 
 p.juice_description_second
 {
-    font-size: 16pt;
+    font-size: 15pt;
 }
 
 div.cell
 {
-    width: auto;
+    width: 461px;
+    margin-bottom: 32px;
 }
 
 .left
@@ -172,8 +181,47 @@ div.cell
     float: right;
 }
 
-p.description
+p.cell_title
 {
-    font-size: 16pt;
+    font-size: 25pt;
+}
+
+p.cell_description
+{
+    font-size: 18pt;
+    font-weight: bold;
     color: black;
+    margin: -12px 0 64px 0;
+}
+
+div.footer
+{
+    width: 100%;
+    display: grid;
+    justify-content: center;
+}
+
+div.footer_content
+{
+    width: 1128px;
+    padding: 32px 0 24px 0;
+}
+
+p.footer_copyright
+{
+    font-size: 8pt;
+    font-weight: 500;
+    margin-bottom:23px;
+}
+
+button.footer_media
+{
+    width: 32px;
+    height: 32px;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    background-color: #cc841f;
+    padding-top: 4px;
+    margin: 0 8px;
 }
